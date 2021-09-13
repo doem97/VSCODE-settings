@@ -1,0 +1,67 @@
+// my overall software settings
+{
+    "workbench.colorTheme": "Default Dark+",
+    "remote.SSH.remotePlatform": {
+        "rose-1080": "linux",
+        "micl-2080": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.inheritEnv": false,
+    "todohighlight.keywords": [
+        {
+            "text": "WARN:",
+            "color": "#000000",
+            "backgroundColor": "red",
+        },
+        {
+            "text": "TMP:",
+            "color": "#000000",
+            "backgroundColor": "#cc9900",
+        },
+        {
+            "text": "NOTICE:",
+            "color": "#000000",
+            "backgroundColor": "#db87ff",
+        },
+        {
+            "text": "CONTD:",
+            "color": "#000000",
+            "backgroundColor": "#00cc00",
+        },
+        {
+            "text": "TEST:",
+            "color": "#000000",
+            "backgroundColor": "#ccffff",
+        },
+    ],
+    "todohighlight.include": [
+        "**/*.py",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**",
+        "**/wandb/**"
+    ],
+    "search.exclude": {
+        "wandb/**": true,
+    },
+}
